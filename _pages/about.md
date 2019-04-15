@@ -5,28 +5,14 @@ description: Personal is the perfect theme for developers, designers and other c
 featured_image: /images/demo/about.jpg
 ---
 
-## Features
+<p>Hi there.</p>
 
-We've packed Personal full of powerful features to help showcase your work:
+<p>
+For as long as I can remember, I've always loved looking at numbers to uncover hidden insights and explain the unknown. I turned this passion into a career where I focused on supply chain analytics for the first 7-ish years, but eventually found myself wanting to work with a more diverse set of data and broaden my technical skills beyond the world of Excel spreadsheets. I enrolled in a data science bootcamp where I learned data science concepts to apply to my own personal projects, and haven't looked back. 
+ </p>
 
-* Beautiful, minimal design
-* Large header image and single column post layout
-* Responsive – works perfectly on all devices
-* Portfolio post type
-* Blog with pagination
-* Sleek Ajax navigation and page transitions
-* Unique 'gallery' feature for image grids and carousels
-* Built-in contact form with Formspree integration
-* Full markdown support and code highlighting
-* Social media icons
-* Fast page rendering
-* Built with SEO best practices in mind
-* Customize everything – colors, spacing, fonts, sizes etc. – via a simple settings file
-* Works with GitHub Pages
-* Updated and supported by the developers
+<p>I'm hoping to use this blog to continue working on random personal projects based on any interesting data / APIs I find, and as a way to (hopefully) get feedback so I can continue learning along the way. There might be some work-related topics / concepts I work through, but I'd expect it will be more topics I'm passionate about such as music, culture, politics and a whole lot of sports. 
+</p>
 
-## Get Personal
-
-Personal is created and supported by [Jekyll Themes](https://jekyllthemes.io), and is available for $39.
-
-<a href="https://jekyllthemes.io/theme/personal-website-jekyll-theme" class="button button--large">Get This Theme</a>
+<p>If you're interested in connecting, feel free to email me at deepika@deepindata.me!
+</p>
