@@ -1,8 +1,8 @@
 ---
 title: 'Is @realdonaldtrump the real Donald Trump'
-<!-- subtitle: 'NLP to identify difference between tweets from iPhone and Android' -->
+subtitle: 'NLP to identify difference between tweets from iPhone and Android'
 date: 2018-06-30 00:00:00
-description: NLP to identify difference between tweets from iPhone and Android
+<!-- description: NLP to identify difference between tweets from iPhone and Android -->
 featured_image: '/images/twitter_background.jpg'
 ---
 
