@@ -4,19 +4,20 @@ subtitle: 'NLP to identify difference between tweets from iPhone and Android'
 date: 2018-06-30 00:00:00
 description: NLP to identify difference between tweets from iPhone and Android
 featured_image: '/images/twitter_background2.jpg'
+preview_image: '/images/twitter_preview.jpg'
 ---
 
 <!-- ![](/images/twitter_background2.jpg) -->
 
 I saw a tweet awhile back hypothesizing that when it's actually Donald Trump tweeting from his @realdonaldtrump account, it comes from Android. But when his staff tweets, it usually comes from iPhone. I pulled some of his tweets from the Twitter API to get a look at the metadata and see if there was a noticable difference between the two sources, and, this is what I found: 
 
-<b>iPhone:</b>
+**iPhone:**
 ![](/images/twitter_iphone.jpg)
 
-<b>Android:</b>
+**Android:**
 ![](/images/twitter_android.jpg)
 
-No matter what your party affiliation is, I think there's a pretty clear difference between the two groups. So I wanted to use NLP to see if I could separate all his tweets into 2 clusters based on the text in the tweet. And since I have the actual source of the tweet, I can measure how accurate I was in separating the tweets into these 2 distinct groups. I read a data science [blog] (http://varianceexplained.org/r/trump-tweets/) that did similar work, but I wanted to try to implement it in Python instead of R.
+No matter what your party affiliation is, I think there's a pretty clear difference between the two groups. So I wanted to use NLP to see if I could separate all his tweets into 2 clusters based on the text in the tweet. And since I have the actual source of the tweet, I can measure how accurate I was in separating the tweets into these 2 distinct groups. I read a data science [blog](http://varianceexplained.org/r/trump-tweets/) that did similar work, but I wanted to try to implement it in Python instead of R.
 
 I could only get the most recent 200 tweets through the Twitter API, but also incorporated a dataset Kaggle had of Donald Trump and Hillary Clinton tweets for a few months over the election season. In the end I ended up with about 2,100 Donald Trump tweets that was split pretty closely between Android - iPhone (52% - 48%). 
 
