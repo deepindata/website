@@ -1,6 +1,6 @@
 ---
 title: About me
-subtitle: Personal is the perfect theme for developers, designers and other creatives.
+subtitle: 
 description: 
 featured_image: /images/elephants.jpg
 ---
