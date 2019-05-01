@@ -4,11 +4,6 @@
 
 <head>
 
-	{% if site.google_analytics and jekyll.environment == 'production' %}
-	{% include analytics.html %}
-	{% endif %}
-
-
 	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 	{{ site.data.settings.basic_settings.site_title }}
@@ -103,6 +98,9 @@
 	<!-- Extra Footer JS Code -->
 	{{ site.data.settings.advanced_settings.footer_js }}
 	{% endif %}
+
+    {% include analytics.html %}
+
 
 
 </body>
